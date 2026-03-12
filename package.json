@@ -2,10 +2,10 @@
   "name": "whatsapp-video-agent",
   "version": "1.0.0",
   "description": "WhatsApp-powered AI agent that generates 8-second videos and auto-publishes to YouTube",
-  "main": "bot.js",
-   "scripts": {
-    "start": "node bot.js",
-    "dev": "nodemon bot.js"
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
