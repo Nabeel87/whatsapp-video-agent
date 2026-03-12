@@ -13,7 +13,7 @@ const client = new Client({
 // ─── QR Code Event ───
 client.on("qr", (qr) => {
   console.log("📱 Scan this QR code with WhatsApp:");
-  qrcode.generateASCII(qr, { small: true });
+  qrcode.generate(qr, { small: true });
 });
 
 // ─── Ready Event ───
