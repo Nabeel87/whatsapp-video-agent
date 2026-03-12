@@ -1,18 +1,25 @@
 {
   "name": "whatsapp-video-agent",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "WhatsApp-powered AI agent that generates 8-second videos and auto-publishes to YouTube",
+  "main": "bot.js",
+   "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Nabeel87/whatsapp-video-agent.git"
   },
-  "keywords": [],
+  "keywords": [
+    "whatsapp",
+    "youtube",
+    "ai",
+    "video-generation",
+    "automation"
+  ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "type": "commonjs",
   "bugs": {
     "url": "https://github.com/Nabeel87/whatsapp-video-agent/issues"
